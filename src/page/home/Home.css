@@ -1,0 +1,33 @@
+.posterImage{
+    height: 600px;
+}
+.posterImage > img{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+.posterImage_overlay{
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0),rgb(0,0,0,));
+    opacity: 1;
+    transition: .3s;
+}
+.posterImage_overlay:hover {
+    opacity: 1;
+}
+
+.posterImage_title {
+    font-weight: 900;
+    /* font-size: 4rem; */
+    font-size: 6vw;
+    margin-bottom: 0.4rem;
+    text-align: left;
+    color: rgb(255, 210, 212);
+}

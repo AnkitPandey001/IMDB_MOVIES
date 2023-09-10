@@ -1,0 +1,46 @@
+.header{
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid maroon;
+}
+.headerLeft, .headerRight{
+    display: flex;
+    align-items: center;
+}
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+.header_icon{
+   width: 80px;
+   cursor: pointer;
+}
+.user_avatar{
+    font-size: 2rem;
+}
+a>span:hover{
+    color: red;
+}
+.input_type,input{
+    width:850px;
+    height:40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(198, 186, 167);
+    border: none;
+}
+i{
+    padding: 20px;
+    background-color: rgb(175, 193, 193);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+
+}
