@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/imdb_movies/static/css/main.926259f8.css",
+    "main.js": "/imdb_movies/static/js/main.abac572b.js",
+    "index.html": "/imdb_movies/index.html",
+    "main.926259f8.css.map": "/imdb_movies/static/css/main.926259f8.css.map",
+    "main.abac572b.js.map": "/imdb_movies/static/js/main.abac572b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.926259f8.css",
+    "static/js/main.abac572b.js"
+  ]
+}
